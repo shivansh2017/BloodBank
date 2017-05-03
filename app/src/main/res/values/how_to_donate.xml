@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="about">About the Donation Process</string>
+    <string name="about_details">Donating blood is one of easiest ways to support your community. Your donation will help save the life of up to three people!  If you’ve never donated blood before, you’re probably wondering what you can expect and you may even be a little nervous, but don’t worry!  Giving blood is safe and simple. The entire process takes about one hour and 15 minutes; the actual donation of a pint of whole blood unit takes eight to 10 minutes. However, the time varies slightly with each person depending on several factors including the donor’s health history and attendance at the blood drive.</string>
+    <string name="Registration">Step 1 Registration</string>
+    <string name="Registration_details_1">\u2022 Present your photo ID Card.</string>
+    <string name="Registration_details_2">\u2022 Read information sheet about donating blood.</string>
+    <string name="donor_health">Step 2 Donor Health History</string>
+    <string name="donor_health_details1">\u2022 Provide basic demographic and health information</string>
+    <string name="donor_health_details2">\u2022 Answer questions about past and present health history (information is kept private)</string>
+    <string name="donor_health_details3">\u2022 Undergo mini exam to determine if you are able to donate (temperature, blood   pressure, heart rate). Give blood drop to determine hemoglobin level</string>
+    <string name="Hydration_Station">Step 3 Hydration Station</string>
+    <string name="Hydration_Station_details">\u2022 Drink water or other beverage prior to your donation.  The more hydrated you are, the faster your donation will be and the better you’ll feel afterwards</string>
+    <string name="donation">Step 4 Donation</string>
+    <string name="donation_details">\u2022 Sit in one of our specialized comfy donor “lounge chairs”</string>
+    <string name="donation_details_1">\u2022 Answer a few questions from a staff member</string>
+    <string name="donation_details_2">\u2022 Once the needle is in place, it usually takes less than 10 minutes to draw a unit (about a pint) of blood.  You’ll squeeze a ball to keep the blood flowing while you read, relax or chat with one of our nurses</string>
+    <string name="donation_details_3">\u2022 Finish your donation, after which the needle will be removed and a bandage applied (the bandage is a great way to show off what a hero you are!)</string>
+    <string name="visit_the_canteen">Step 5 Visit the Canteen</string>
+    <string name="visit_the_canteen_details">\u2022 Sit, relax and have a snack and drink at our donor canteen for a few minutes (California law states you’ll need to hang out with us for at least 15 minutes)</string>
+    <string name="visit_the_canteen_details_1">\u2022 All Done! Enjoy your day. You’ve earned it!  You’ve found the Hero in you!</string>
+    <string name="after_donation">Step 6 After Donation</string>
+    <string name="after_donation_details">\u2022 Avoid strenuous physical activity or heavy lifting for a few hours. If you feel light-headed, lie down until feeling better.</string>
+
+
+</resources>

@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/list_row_selector"
+    android:padding="8dp">
+
+    <!-- Thumbnail Image -->
+    <ImageView
+        android:id="@+id/thumbnail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_marginRight="8dp"
+        android:background="@drawable/ic_profile_red" />
+
+    <!--  Title -->
+    <TextView
+        android:id="@+id/name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/thumbnail"
+        android:layout_toRightOf="@+id/thumbnail"
+        android:text="vikas Kumar"
+        android:textSize="@dimen/userTitle"
+        android:textStyle="bold" />
+    <!-- blood group -->
+    <TextView
+        android:id="@+id/bloodgroup"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/name"
+        android:layout_marginTop="1dip"
+        android:layout_toRightOf="@+id/thumbnail"
+        android:text="blood group : O +"
+        android:textSize="@dimen/bloodgroup" />
+    <!-- age -->
+    <TextView
+        android:id="@+id/age"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/title"
+        android:textSize="12sp"
+        android:layout_alignParentRight="true"
+        android:layout_alignTop="@id/name"
+        android:gravity="right"
+        android:text="Age : 21" />
+        <!-- phone -->
+        <TextView
+            android:id="@+id/phone"
+            android:layout_below="@+id/age"
+            android:layout_alignParentRight="true"
+            android:layout_alignBaseline="@+id/bloodgroup"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/year"
+            android:textSize="@dimen/phone"
+            android:text="8699118393"/>
+
+    <!-- city -->
+    <TextView
+        android:id="@+id/city"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/bloodgroup"
+        android:layout_marginTop="2dp"
+        android:layout_toRightOf="@+id/thumbnail"
+        android:text="Jalandhar"
+        android:textColor="@color/genre"
+        android:textSize="@dimen/city" />
+
+    <TextView
+        android:id="@+id/emailUser"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/city"
+        android:layout_marginTop="2dp"
+        android:layout_toRightOf="@+id/thumbnail"
+        android:text="vkbookworm@gmail.com"
+        android:textColor="@color/genre"
+        android:textSize="@dimen/city" />
+
+
+
+</RelativeLayout>

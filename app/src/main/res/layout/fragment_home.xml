@@ -1,0 +1,285 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.pushpam.materialdesignblooddonor.activity.HomeFragment">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/ActionNo_ColorPrimary"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp">
+
+        <ImageView
+            android:id="@+id/imageCover"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_alignParentTop="true"
+            android:layout_centerInParent="true"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="10dp"
+            android:adjustViewBounds="true"
+            android:background="@drawable/save_logo" />
+
+        <View
+            android:id="@+id/divider"
+            android:layout_width="fill_parent"
+            android:layout_height="10dp"
+            android:layout_below="@+id/imageCover"
+            android:background="#ffe61c25"
+            android:paddingLeft="0dp"
+            android:paddingRight="0dp" />
+
+        <TextView
+            android:id="@+id/label"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/imageCover"
+            android:layout_marginTop="10dp"
+            android:alpha="87"
+            android:gravity="center_horizontal"
+            android:text="@string/about"
+            android:textColor="@color/button"
+            android:textSize="34sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/label2"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/label"
+            android:layout_centerInParent="true"
+            android:alpha="54"
+            android:gravity="fill|fill_horizontal"
+            android:text="@string/about_details"
+            android:textColor="@color/white"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/label3"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/label2"
+            android:layout_marginTop="10dp"
+            android:alpha="87"
+            android:gravity="start"
+            android:text="@string/Registration"
+            android:textColor="@color/button"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/label4"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/label3"
+            android:alpha="54"
+            android:gravity="fill|fill_horizontal"
+            android:text="@string/Registration_details_1"
+            android:textColor="@color/white"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/label5"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/label4"
+            android:alpha="54"
+            android:gravity="fill|fill_horizontal"
+            android:text="@string/Registration_details_2"
+            android:textColor="@color/white"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/label6"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/label5"
+            android:layout_marginTop="10dp"
+            android:alpha="87"
+            android:gravity="start"
+            android:text="@string/donor_health"
+            android:textColor="@color/button"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/label7"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/label6"
+            android:alpha="54"
+            android:gravity="fill|fill_horizontal"
+            android:text="@string/donor_health_details1"
+            android:textColor="@color/white"
+
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/label8"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/label7"
+            android:alpha="54"
+            android:gravity="fill|fill_horizontal"
+            android:text="@string/donor_health_details2"
+            android:textColor="@color/white"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/label9"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/label8"
+            android:alpha="54"
+            android:gravity="fill|fill_horizontal"
+            android:text="@string/donor_health_details3"
+            android:textColor="@color/white"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/label10"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/label9"
+            android:layout_marginTop="10dp"
+            android:alpha="87"
+            android:gravity="start"
+            android:text="@string/Hydration_Station"
+            android:textColor="@color/button"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/label11"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/label10"
+            android:alpha="54"
+            android:gravity="fill|fill_horizontal"
+            android:text="@string/donor_health_details3"
+            android:textColor="@color/white"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/label12"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/label11"
+            android:layout_marginTop="10dp"
+            android:alpha="87"
+            android:gravity="start"
+            android:text="@string/donation"
+            android:textColor="@color/button"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/label13"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/label12"
+            android:alpha="54"
+            android:gravity="fill|fill_horizontal"
+            android:text="@string/donation_details"
+            android:textColor="@color/white"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/label14"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/label13"
+            android:alpha="54"
+            android:gravity="fill|fill_horizontal"
+            android:text="@string/donation_details_1"
+            android:textColor="@color/white"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/label15"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/label14"
+            android:alpha="54"
+            android:gravity="fill|fill_horizontal"
+            android:text="@string/donation_details_2"
+            android:textColor="@color/white"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/label16"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/label15"
+            android:alpha="54"
+            android:gravity="fill|fill_horizontal"
+            android:text="@string/donation_details_3"
+            android:textColor="@color/white"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/label17"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/label16"
+            android:layout_marginTop="10dp"
+            android:alpha="87"
+            android:gravity="start"
+            android:text="@string/visit_the_canteen"
+            android:textColor="@color/button"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/label18"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/label17"
+            android:alpha="54"
+            android:gravity="fill|fill_horizontal"
+            android:text="@string/visit_the_canteen_details"
+            android:textColor="@color/white"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/label19"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/label18"
+            android:alpha="54"
+            android:gravity="fill|fill_horizontal"
+            android:text="@string/visit_the_canteen_details_1"
+            android:textColor="@color/white"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/label20"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/label19"
+            android:layout_marginTop="10dp"
+            android:alpha="87"
+            android:gravity="start"
+            android:text="@string/after_donation"
+            android:textColor="@color/button"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/label21"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/label20"
+            android:alpha="54"
+            android:gravity="fill|fill_horizontal"
+            android:paddingBottom="10dp"
+            android:text="@string/after_donation_details"
+            android:textColor="@color/white"
+            android:textSize="14sp" />
+    </RelativeLayout>
+</ScrollView>
+

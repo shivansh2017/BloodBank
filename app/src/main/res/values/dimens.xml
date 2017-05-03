@@ -1,0 +1,11 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="nav_drawer_width">260dp</dimen>
+
+    <dimen name="userTitle">15sp</dimen>
+    <dimen name="bloodgroup">13sp</dimen>
+    <dimen name="city">13sp</dimen>
+    <dimen name="phone">13sp</dimen>
+</resources>

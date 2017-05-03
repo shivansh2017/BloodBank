@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="blood_array">
+        <item>Blood Group : A+</item>
+        <item>Blood Group : A-</item>
+        <item>Blood Group : B+</item>
+        <item>Blood Group : B-</item>
+        <item>Blood Group : AB+</item>
+        <item>Blood Group : AB-</item>
+        <item>Blood Group : O+</item>
+        <item>Blood Group : O-</item>
+    </string-array>
+
+    <string-array name="last_duration_array">
+        <item>Have Not Donated</item>
+        <item>More than Three Months </item>
+        <item>Less than Three Months </item>
+    </string-array>
+</resources>

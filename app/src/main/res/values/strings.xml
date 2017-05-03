@@ -1,0 +1,85 @@
+<resources>
+    <string name="app_name">Blood Bank</string>
+    <string name="action_logout">logout</string>
+    <string name="action_search">Search</string>
+    <string name="drawer_open">Open</string>
+    <string name="drawer_close">Close</string>
+
+    <string name="nav_item_home">Home</string>
+    <string name="nav_item_friends">Profile</string>
+    <string name="nav_item_share">Share</string>
+    <string name="nav_item_rate">Rate App</string>
+    <string name="nav_item_about">About</string>
+
+    <!-- navigation drawer item labels  -->
+    <string-array name="nav_drawer_labels">
+        <item>@string/nav_item_home</item>
+        <item>@string/nav_item_friends</item>
+        <item>@string/nav_item_share</item>
+        <item>@string/nav_item_rate</item>
+        <item>@string/nav_item_about</item>
+    </string-array>
+
+    <string-array name="nav_drawer_icons">
+        <item>@drawable/ic_stat_home</item>
+        <item>@drawable/ic_stat_profile</item>
+        <item>@drawable/ic_action_share</item>
+        <item>@drawable/ic_stat_rate</item>
+        <item>@drawable/ic_stat_about</item>
+    </string-array>
+    <!-- name for the activity reference in the mainactivity-->
+    <string name="title_friends">Profiles</string>
+    <string name="title_home">Home</string>
+    <string name="title_share">Share</string>
+    <string name="title_rate">Rate App</string>
+    <string name="title_about">About</string>
+
+    <!-- eula agreement-->
+    <string name="eula">I agreed to the terms and conditions of app</string>
+
+    <string name="user_profile_submit">Submit</string>
+
+
+    <!-- hints and register and login strings-->
+    <string name="name_hint">Enter Your Name Here</string>
+    <string name="phone_hint">Enter Your Phone No</string>
+    <string name="email_hint">Enter Your Email Here</string>
+    <string name="auto_country_hint">Enter Your Country Here</string>
+    <string name="auto_state_hint">Enter Your State Here</string>
+    <string name="auto_city_hint">Enter Your City Here</string>
+
+    <string name="hint_email">Email</string>
+    <string name="hint_password"> Password</string>
+    <string name="hint_phone">Phone</string>
+    <string name="hint_city">city</string>
+    <string name="hint_age">age</string>
+    <string name="hint_donor">Are You Donor</string>
+    <string name="hint_name">Fullname</string>
+    <string name="btn_login">LOGIN</string>
+    <string name="btn_auth">Verify My Account</string>
+    <string name="btn_register">REGISTER</string>
+    <string name="btn_link_to_register">Not a member? Sign up now.</string>
+    <string name="btn_link_to_login">Already registred! Login Me.</string>
+    <string name="welcome">Welcome</string>
+    <string name="btn_logout">LOGOUT</string>
+    <string name="name">Fullname</string>
+    <string name="prompt_bloodgroup">Choose your blood Group</string>
+    <string name="prompt_lastdonate">Last Time you Donateed</string>
+    <string name="auth_code">Enter the Received Code</string>
+    <string name="btn_date">click To Select Date</string>
+
+    <!-- search -->
+    <string name="search_title">Search Locations</string>
+    <string name="search_hint">Search Locations</string>
+
+    <!--fragments -->
+    <string name="about_nav">Donate ! Someone Needs You</string>
+    <string name="about_nav_1">This Project has been started with one goal to help People.
+    For us nothing is bigger then humanity and Thus We are Trying to
+        initiate the courage and Determination to the young blood of our country.
+    Please help in our mission to help you .Share and donwload this app
+    \nthanks</string>
+
+    <string name="switch_message">Your Profile by default is set to display in search results .If you Dont want anymore to be part of this
+    please switch off the profile on button .You can Again catch up Later by enabling the profile on button.</string>
+</resources>

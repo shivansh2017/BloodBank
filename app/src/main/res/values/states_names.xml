@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="state_array">
+        <item>Punjab</item>
+        <item>Norway</item>
+        <item>Australia</item>
+        <item>Switzerland</item>
+        <item>Netherlands</item>
+        <item>United States</item>
+        <item>Germany</item>
+        <item>New Zealand</item>
+        <item>Canada</item>
+        <item>Singapore</item>
+        <item>Denmark</item>
+        <item>Ireland</item>
+        <item>Sweden</item>
+        <item>Iceland</item>
+        <item>United Kingdom</item>
+        <item>Hong Kong</item>
+        <item>South Korea</item>
+        <item>Japan</item>
+        <item>Liechtenstein</item>
+        <item>Israel</item>
+        <item>France</item>
+        <item>Austria</item>
+        <item>Belgium</item>
+        <item>Luxembourg</item>
+        <item>Finland</item>
+        <item>Slovenia</item>
+    </string-array>
+</resources>
